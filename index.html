@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="default-style.css">
+    <title>Bank Web App</title>
+    <script src="data.js"></script>
+    <script src="banks.js"></script>
+    <script src="customers.js"></script>
+    <script src="accounts.js"></script>
+    <script src="transactions.js"></script>
+    <!--<script src="lodash.js"></script>-->
+</head>
+<body>
+<header class="bank-header">Bank Web App
+<button id="bank-button" onclick="bankObjects.onBankButtonClick()">Add bank</button>
+</header>
+<div id="bank-list"></div>
+<div id="customer-list"></div>
+<div id="account-list"></div>
+<div id="transaction-list"></div>
+<script>bankObjects.getBanks();</script>
+</body>
+</html>

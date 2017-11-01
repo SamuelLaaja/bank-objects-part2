@@ -1,0 +1,138 @@
+html{
+    background-color: lightsteelblue;
+    font-family: "Palatino Linotype", "Arial";
+}
+.bank-header{
+    Color: mediumblue;
+    font-size: large;
+    margin: 20px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#bank-list {
+    width: 200px;
+    height: 100%;
+    margin: 16px;
+    position: absolute;
+    left: 0px;
+}
+
+#customer-list {
+    width: 200px;
+    height: 100%;
+    margin: 16px;
+    position: absolute;
+    left: 200px;
+}
+
+#account-list {
+    width: 200px;
+    height: 100%;
+    margin: 16px;
+    position: absolute;
+    left: 400px;
+}
+
+#transaction-list {
+    width: 200px;
+    height: 100%;
+    margin: 16px;
+    position: absolute;
+    left: 600px;
+}
+
+element {
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 200px;
+    height: 256px;
+    margin: 16px;
+    padding: 8px;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 16px;
+    font-size: .8em;
+    color: #444444;
+    background: #EEEEEE;
+    opacity: 0.8;
+}
+
+panelHeader{
+    Color: midnightblue;
+    font-weight: bold;
+    font-size: large;
+    margin: 0px;
+}
+
+#bank-list panelHeader{
+    Color: goldenrod;
+}
+
+#customer-list panelHeader{
+    Color: darkviolet;
+}
+
+#account-list panelHeader{
+    Color: lightcoral;
+}
+
+#transaction-list panelHeader{
+    Color: limegreen;
+}
+
+.surface0 {
+    color: #333333;
+    background: #F9F9F9;
+    opacity: 0.0;
+}
+.surface1 {
+    color: #000000;
+    background: #EEEEEE;
+    opacity: 0.1;
+}
+
+.surface2 {
+    color: #111111;
+    background: #F2F2F2;
+    opacity: 0.5;
+}
+
+.surface3 {
+    color: #222222;
+    background: #F6F6F6;
+    opacity: 0.9;
+}
+
+
+.hover {
+    width: 198px;
+    height: 254px;
+    border-width: 2px;
+    color: #000000;
+    background: palegoldenrod;
+    opacity: 0.9;
+}
+
+.selected {
+    width: 198px;
+    height: 254px;
+    border-width: 2px;
+    color: #000000;
+    background: #FFFFFF;
+    opacity: 1;
+}
+
+[fakehidden] { visibility: hidden; } /*keeps element in flow*/
+[hidden] { display: none; }
